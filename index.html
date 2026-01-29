@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title id="title">Calculateur The Forge</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1 id="title2">🔥 The Forge Calculator</h1>
+
+<div>
+<button onclick="setLang('fr')">FR</button>
+<button onclick="setLang('en')">EN</button>
+</div>
+
+<div class="forge-box">
+<div class="row"><select id="ore1"></select><input type="number" id="q1" value="0"></div>
+<div class="row"><select id="ore2"></select><input type="number" id="q2" value="0"></div>
+<div class="row"><select id="ore3"></select><input type="number" id="q3" value="0"></div>
+<div class="row"><select id="ore4"></select><input type="number" id="q4" value="0"></div>
+<button id="calcBtn" onclick="calculate()">Calculer</button>
+</div>
+
+<pre id="result"></pre>
+
+<script src="js/autoupdate.js"></script>
+<script src="js/lang.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>
